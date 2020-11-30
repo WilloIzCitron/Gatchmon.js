@@ -1,4 +1,7 @@
-const db = require("quick.db");
+const db = require("@replit/database");
+
+const db_client = new db();
+
 const Discord = require("discord.js");
 module.exports = (client, message) => {
   console.log(

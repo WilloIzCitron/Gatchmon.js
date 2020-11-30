@@ -1,6 +1,7 @@
 const Discord = require("discord.js"),
-  cooldowns = new Discord.Collection(),
-  db = require("quick.db");
+  cooldowns = new Discord.Collection(), db = require("@replit/database");
+
+const db_client = new db();
 module.exports = async (client, message) => {
   if (message.author.bot || message.author === client.user) return;
 
