@@ -1,6 +1,7 @@
 const db = require("@replit/database");
 
 const db_client = new db();
+var currentdate = new Date(); 
 
 const Discord = require("discord.js");
 module.exports = (client, message) => {
@@ -18,6 +19,8 @@ module.exports = (client, message) => {
   );
 
   client.user.setActivity(
-    client.config.Maintenance ? "MAINTENANCE.." : null
+    client.config.Maintenance ? "MAINTENANCE.." : `Digimon Universe App Monster | ${+ currentdate.getFullYear() + "/"
+                + (currentdate.getMonth()+1)  + "/" 
+                + currentdate.getDay() + " @ "} | ${client.config.prefix}`
   );
 };
