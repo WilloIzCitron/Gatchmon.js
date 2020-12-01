@@ -4,7 +4,7 @@ A Javascript Version Of Gatchmon
 
 its for a developer thing
 
-running on repl.it
+Running with repl.it
 
 ## How To Install
 1. Download a repo
