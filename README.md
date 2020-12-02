@@ -7,12 +7,12 @@ its for a developer thing
 Running with repl.it
 
 ## How To Install
-1. Download a repo
+1. open REPL.IT
 
-2. Download a Node.js (skip This if you have Node.js)
+2. import project from this
 
-3. open on VS code (Recommended)
+3. copy a bot token on .env
 
-4. paste a .env token
+4. run
 
-5. run a code
+Goodluck :wink:
